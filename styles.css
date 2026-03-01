@@ -164,13 +164,13 @@ body[dir="rtl"] .glow-bg {
 /* Hero Section */
 .hero {
     min-height: 100vh;
+    min-height: 100svh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 0 5%;
     position: relative;
-    /* CRITICAL: Fixed sticky scroll button issue */
 }
 
 .hero-content {
@@ -537,7 +537,7 @@ footer {
     }
 
     .hero-scroll {
-        bottom: 55px;
-        /* Moved up to avoid mobile browser chrome */
+        bottom: 80px;
+        /* Moved up completely to avoid mobile browser chrome */
     }
 }
