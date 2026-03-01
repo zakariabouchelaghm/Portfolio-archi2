@@ -535,4 +535,9 @@ footer {
     .divisions-intro {
         font-size: 1.1rem;
     }
+
+    .hero-scroll {
+        bottom: 55px;
+        /* Moved up to avoid mobile browser chrome */
+    }
 }
