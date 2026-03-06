@@ -200,11 +200,54 @@ body.lang-arabic .subtitle {
     font-size: 1.1rem;
     color: var(--text-muted);
     letter-spacing: 1px;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 body.lang-arabic .role-list {
     letter-spacing: 0;
+}
+
+.phone-number {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--accent);
+    padding: 12px 28px;
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    background: var(--glass-bg);
+    transition: var(--transition);
+    text-decoration: none;
+    font-family: 'Outfit', sans-serif;
+    backdrop-filter: blur(10px);
+    margin-bottom: 2rem;
+}
+
+body.lang-arabic .phone-number {
+    font-family: 'Cairo', sans-serif;
+    flex-direction: row-reverse;
+}
+
+.phone-number:hover {
+    background: rgba(184, 164, 106, 0.15);
+    color: var(--text-main);
+    transform: translateY(-3px);
+    border-color: var(--accent);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.phone-icon {
+    color: var(--accent);
+    transition: var(--transition);
+    display: flex;
+    align-items: center;
+}
+
+.phone-number:hover .phone-icon {
+    color: var(--text-main);
 }
 
 .bull {
